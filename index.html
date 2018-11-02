@@ -3,11 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "theme-color" content= "#65FF4B">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-startup-image" href="/images/startup.png" />
+    <meta name="apple-mobile-web-app-title" content="Actividades">  
+    <link rel="apple-touch-icon" href="images/icon-ios.png">
+    <link rel="manifest" href="manifest.json">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+
+    body{
+        background-color: #65FF4B;
+        opacity: 0.5;
+    }
+
+       
+    h1{
+        font-size: 70px;
+        text-align: center;
+        color:#8D28CC;
+        opacity: 1;
+        /* font-weight: bold; */
+        
+    }
+    ul{
+        list-style-type: none;
+        padding: 0%;
+        text-align: center;
+
+    }
+    li{
+        margin: 15px;
+        padding: 0%;
+        background-color: rgb(6, 6, 93);
+        float:left;
+        border: solid 3px  rgba(10, 4, 59, 0.829);
+        border-radius: 15%;
+    }
+
+
+.material-icons{
+    font-size: 50px;
+    color: #28CC72;
+
+}
+
+
+ i:hover {
+    font-size: 70px;
+    color: #28CC72;
+
+}
+/*
+a:hover{
+    font-size: 62px;
+    color: #28CC72;
+    
+}
+
+*/  
+
+p {
+    font-size: small;
+}
+
+a { 
+    width: 70px;
+    height: 120px;        
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #28CC72;
+}
+
+</style>
+
+
+
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <h1>Mis Actividades</h1>
+<ul>
+    <li>
+        <a href="https://www.google.com/maps/@-34.6176428,-58.4432235,15z">
+            <i class= "material-icons">maps</i>
+        <p> Mapa de la ciudad</p>
+        </a>
+    </li>
+    <!-- https://maps.apple.com/?daddr=104+Market+St.+San+Francisco%2C+CA -->
+    <li>
+            <a href="https://maps.apple.com/?daddr=104+Market+St.+San+Francisco%2C+CA">
+                <i class= "material-icons">bug_report</i>
+            <p>Bichinho</p>
+            </a>
+        </li>
+
+    <!-- https://maps.google.com/?daddr=104+Market+St.+San+Francisco%2C+CA -->
     
+    <li>
+            <a href="https://maps.apple.com/?daddr=104+Market+St.+San+Francisco%2C+CA">
+                <i class= "material-icons">card_giftcard</i>
+            <p> Mapa de la ciudad</p>
+            </a>
+        </li>
+    <!-- https://maps.google.com/?saddr=Big+Ben&daddr=Hyde+Park%2C+London&dirflg=w -->
+    <li>
+            <a href="https://maps.google.com/?saddr=Big+Ben&daddr=Hyde+Park%2C+London&dirflg=w">
+                <i class= "material-icons">face</i>
+            <p> Mapa de la ciudad</p>
+            </a>
+        </li>
+    <!-- https://maps.apple.com/?saddr=Big+Ben&daddr=Hyde+Park%2C+London&dirflg=r -->
+    <li>
+            <a href=" https://maps.apple.com/?saddr=Big+Ben&daddr=Hyde+Park%2C+London&dirflg=r">
+                <i class= "material-icons">motorcycle</i>
+            <p> Mapa de la ciudad</p>
+            </a>
+        </li>
+    <!-- https://m.uber.com/ul/?action=setPickup&pickup=my_location -->
+    <li>
+            <a href="  https://m.uber.com/ul/?action=setPickup&pickup=my_location">
+                <i class= "material-icons">pets</i>
+            <p> Mapa de la ciudad</p>
+            </a>
+        </li>
+
+
+
+
+        <li><a href="sms:12345678?body=I%27m+late">
+                <i class="material-icons">message</i>
+                <p>Texto a mi Esposa</p>
+            </a></li>       
+             <li><a href="whatsapp://send?text=I%27m+late">
+                <i class="material-icons">message</i>
+                <p>Whatsapp a mi Esposa</p>
+            </a></li>       
+             <li><a href="tg:msg?text=I%27m+late">
+                <i class="material-icons">message</i>
+                <p>Amigo en Telegram</p>
+            </a></li>       
+             <li><a href="fb-messenger://share?link=http://">
+                <i class="material-icons">message</i>
+                <p>Enviar Messenger</p>
+            </a></li>       
+             <li><a href="tel:+541145454545">
+                <i class="material-icons">call</i>
+                <p>Llamar Mama</p>
+            </a></li>       
+             <li><a href="facetime:user@domain.com">
+                <i class="material-icons">movie_creation	
+        </i>
+                <p>Facetime Ale</p>
+            </a></li>       
+             <li><a href="facetime-audio:user@domain.com">
+                <i class="material-icons">mic</i>
+                <p>Audio Facetime Ale</p>
+            </a></li>       
+             <li><a href="skype:mary89?call">
+                <i class="material-icons">contact_phone	
+        </i>
+                <p>Skype Flor</p>
+            </a></li>       
+             <li><a href="skype:mary89?call&video=true">
+                <i class="material-icons">call</i>
+                <p>Video Skype Flor</p>
+            </a></li>       
+             <li><a href="https://twitter.com/intent/tweet">
+                <i class="material-icons">call</i>
+                <p>Nuevo Tweet</p>
+            </a></li>       
+             <li><a href="snapchat://">
+                <i class="material-icons">camera</i>
+                <p>Iniciar Snapchat</p>
+            </a></li>
+        
+        
+</ul>
+
+
+
+
+
+
 </body>
 </html>
